@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <link rel="stylesheet" href="css/menu.css">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <title>Document</title>
+</head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<body>
+    <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu">
+                <i class="material-icons">menu</i>
+            </span>
+        </a>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#"><span class="icon-house"></span>La Liga</a></li>
+				<li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
+				<li><a href="#"><span class="icon-rocket"></span>Proyectos</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div >
+        <img id="fondo" src="img/EstadioBarca.jpg" alt="" sizes="" srcset="">
+         </div>
+</body>
+<script>
+    $(document).ready(main);
+
+var contador = 1;
+
+function main(){
+	$('.menu_bar').click(function(){
+		// $('nav').toggle(); 
+
+		if(contador == 1){
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+
+	});
+
+};
+</script>
+</html>
