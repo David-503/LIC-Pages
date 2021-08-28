@@ -1,60 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-   <link rel="stylesheet" href="css/menu.css">
-   <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-   <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>Document</title>
 </head>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
 <body>
-    <header>
+	<header>
 		<div class="menu_bar">
 			<a href="#" class="bt-menu">
-                <i class="material-icons">menu</i>
-            </span>
-        </a>
+				<i class="material-icons">menu</i>
+				</span>
+			</a>
 		</div>
 
 		<nav>
 			<ul>
-				<li><a href="#"><span class="icon-house"></span>La Liga</a></li>
-				<li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
-				<li><a href="#"><span class="icon-rocket"></span>Proyectos</a></li>
+				<li><a href="../la liga/index.html"><span class="icon-house"></span>La Liga</a></li>
+				<li><a href="../Boostrap/index.html"><span class="icon-suitcase"></span>Bootstrap</a></li>
+				<li><a href="../Parte1/index.html"><span class="icon-rocket"></span>Galeria</a></li>
 			</ul>
 		</nav>
 	</header>
-    <div >
-        <img id="fondo" src="img/EstadioBarca.jpg" alt="" sizes="" srcset="">
-         </div>
+	<div>
+		<img id="fondo" src="img/EstadioBarca2.png" alt="" sizes="" srcset="">
+	</div>
+	<div>
+		<table>
+			<caption>Tabla de posiciones</caption>
+			<thead>
+				<tr>
+					<th scope="col"></th>
+					<th scope="col">Club</th>
+					<th scope="col">PJ</th>
+					<th scope="col">G</th>
+					<th scope="col">E</th>
+					<th scope="col">P</th>
+					<th scope="col">GF</th>
+					<th scope="col">GC</th>
+					<th scope="col">DG</th>
+					<th scope="col">Pts</th>
+
+				</tr>
+			</thead>
+			<tbody>
+				<tr style="background-color: rgb(18, 187, 131); color: white;">
+					<td><img src="img/equipos/valencia.png"></td>
+					<td data-label="Club">1- Valencia
+					</td>
+					<td data-label="PJ">3</td>
+					<td data-label="G">2</td>
+					<td data-label="E">1</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">5</td>
+					<td data-label="GC">1</td>
+					<td data-label="DF">4</td>
+					<td data-label="PTS">7</td>
+				</tr>
+				<tr style="background-color: rgb(18, 187, 131); color: white;">
+					<td><img src="img/equipos/mallorca.png"></td>
+					<td data-label="Club">2- Mallorca</td>
+					<td data-label="PJ">3</td>
+					<td data-label="G">2</td>
+					<td data-label="E">1</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">3</td>
+					<td data-label="GC">1</td>
+					<td data-label="DF">2</td>
+					<td data-label="PTS">7</td>
+				</tr>
+				<tr style="background-color: rgb(18, 187, 131); color: white;">
+					<td><img src="img/equipos/sevilla.png"></td>
+					<td data-label="Club">3- Sevilla</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">2</td>
+					<td data-label="E">0</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">4</td>
+					<td data-label="GC">0</td>
+					<td data-label="DF">4</td>
+					<td data-label="PTS">6</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Atletico.png"></td>
+					<td data-label="Club">4- Altético de Madrid </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">2</td>
+					<td data-label="E">0</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">3</td>
+					<td data-label="GC">1</td>
+					<td data-label="DF">2</td>
+					<td data-label="PTS">6</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Real Madrid.png"></td>
+					<td data-label="Club">5- Real Madrid </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">1</td>
+					<td data-label="E">0</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">7</td>
+					<td data-label="GC">4</td>
+					<td data-label="DF">3</td>
+					<td data-label="PTS">4</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Barcelona.png"></td>
+					<td data-label="Club">6- Barcelona </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">1</td>
+					<td data-label="E">0</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">7</td>
+					<td data-label="GC">4</td>
+					<td data-label="DF">3</td>
+					<td data-label="PTS">4</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Real Sociedad.png"></td>
+					<td data-label="Club">7- Real sociedad </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">1</td>
+					<td data-label="E">0</td>
+					<td data-label="P">1</td>
+					<td data-label="GF">3</td>
+					<td data-label="GC">4</td>
+					<td data-label="DF">-1</td>
+					<td data-label="PTS">3</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Levante.png"></td>
+					<td data-label="Club">8- Levante </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">4</td>
+					<td data-label="GC">4</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Cadiz.png"></td>
+					<td data-label="Club">9- Cádiz </td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Betis.png"></td>
+					<td data-label="Club">10- Betis
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Bilbao.png"></td>
+					<td data-label="Club">11- Atletico de Bilbao
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Granada.png"></td>
+					<td data-label="Club">12- Granada
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Osasuna.png"></td>
+					<td data-label="Club">13- Osasuna
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Villareal.png"></td>
+					<td data-label="Club">14- Villarreal
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">0</td>
+					<td data-label="GF">2</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">0</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Espanyol.png"></td>
+					<td data-label="Club">15- RCD Espanyol
+					</td>
+					<td data-label="PJ">3</td>
+					<td data-label="G">0</td>
+					<td data-label="E">2</td>
+					<td data-label="P">1</td>
+					<td data-label="GF">0</td>
+					<td data-label="GC">1</td>
+					<td data-label="DF">-1</td>
+					<td data-label="PTS">2</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Celta.png"></td>
+					<td data-label="Club">16- Celta de Vigo
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">1</td>
+					<td data-label="P">1</td>
+					<td data-label="GF">1</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">-1</td>
+					<td data-label="PTS">1</td>
+				</tr>
+				<tr>
+					<td><img src="img/equipos/Elche.png"></td>
+					<td data-label="Club">17- Elche
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">1</td>
+					<td data-label="P">1</td>
+					<td data-label="GF">0</td>
+					<td data-label="GC">1</td>
+					<td data-label="DF">-1</td>
+					<td data-label="PTS">1</td>
+				</tr>
+				<tr style="background-color: rgb(209, 75, 75); color: white;">
+					<td><img src="img/equipos/Getafe.png"></td>
+					<td data-label="Club">18- Getafe
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">0</td>
+					<td data-label="P">2</td>
+					<td data-label="GF">0</td>
+					<td data-label="GC">2</td>
+					<td data-label="DF">-2</td>
+					<td data-label="PTS">0</td>
+				</tr>
+				<tr style="background-color: rgb(209, 75, 75); color: white;">
+					<td><img src="img/equipos/Rayo Vallecano.png"></td>
+					<td data-label="Club">19- Rayo Vallecano
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">0</td>
+					<td data-label="P">2</td>
+					<td data-label="GF">0</td>
+					<td data-label="GC">4</td>
+					<td data-label="DF">-4</td>
+					<td data-label="PTS">0</td>
+				</tr>
+				<tr style="background-color: rgb(209, 75, 75); color: white;">
+					<td><img src="img/equipos/Alaves.png"></td>
+					<td data-label="Club">20- Alavés
+					</td>
+					<td data-label="PJ">2</td>
+					<td data-label="G">0</td>
+					<td data-label="E">0</td>
+					<td data-label="P">3</td>
+					<td data-label="GF">1</td>
+					<td data-label="GC">8</td>
+					<td data-label="DF">-7</td>
+					<td data-label="PTS">0</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+
+	<footer>
+		<div class="footer-area-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="credits">
+							<a href="#">Universidad Don Bosco</a> | <a href="">Derechos resevados</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 <script>
-    $(document).ready(main);
+	$(document).ready(main);
 
-var contador = 1;
+	var contador = 1;
 
-function main(){
-	$('.menu_bar').click(function(){
-		// $('nav').toggle(); 
+	function main() {
+		$('.menu_bar').click(function () {
+			// $('nav').toggle(); 
 
-		if(contador == 1){
-			$('nav').animate({
-				left: '0'
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$('nav').animate({
-				left: '-100%'
-			});
-		}
+			if (contador == 1) {
+				$('nav').animate({
+					left: '0'
+				});
+				contador = 0;
+			} else {
+				contador = 1;
+				$('nav').animate({
+					left: '-100%'
+				});
+			}
 
-	});
+		});
 
-};
+	};
 </script>
+
 </html>
