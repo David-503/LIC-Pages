@@ -1,0 +1,23 @@
+body{
+    background-color: #ABEBC6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: red;
+}
+h2{
+    color: #A93226;
+}
+li b{
+    color: #52BE80;
+}
+p, li{
+    color: blue;
+}
+section b{
+    font-size: 20px;
+}
+mark i{
+    color: white;
+    background-color: black;
+}
