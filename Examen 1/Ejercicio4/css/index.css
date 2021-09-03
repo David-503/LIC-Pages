@@ -1,0 +1,60 @@
+body{
+    background-color: #45B39D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, nav, .Principal, .Principal2{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+header h2{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+/*Para imagen a la izquierda*/
+.Principal{
+    background-color: white;
+    border: 10px solid red;
+    height: 275px;
+}
+.Secundario{
+    height: 100%;
+}
+.imagen2, img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid orange;
+    margin: 0;
+    padding: 0;
+}
+.imagen{
+    float: left;
+}
+.imagen{
+    border: 10px solid red;
+    margin: 0;
+    padding: 0;
+}
+/*Para imagen a la derecha*/
+.Principal2{
+    background-color: white;
+    border: 10px solid orange;
+    height: 275px;
+
+}
+.imagen2 img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+.imagen2{
+    float: right;
+    margin-right: 10px;
+    height: auto;
+    width: auto;
+}
+.imagen2{
+    border: 10px solid orange;
+}
