@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+
+* {
+    font-family: 'Besley', serif;
+}
+
+#header {
+    margin: 0.5%;
+    padding: 0.5%;
+    text-align: center;
+}
+
+#left {
+    margin: 0.5%;
+    padding: 0.5%;
+    width: 15%;
+}
+
+#right {
+    width: 75%;
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.container {
+    display: inline-table;
+
+}
+
+.columna {
+    columns: 3 8em;
+    float: left;
+    text-align: justify;
+}
+
+@media (max-width: 700px) {
+    #left {
+        margin: 0.5%;
+        padding: 0.5%;
+        width: 99%;
+    }
+
+    #right {
+        width: 99%;
+
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+}
